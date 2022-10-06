@@ -26,7 +26,7 @@ html,body {
     height: 100%;
     line-height: 1;
     font-family: 'Roboto', sans-serif;
-    background: url("../img/main-screen.png") center no-repeat;
+
     /* background-position: 0 0;
     background-repeat: no-repeat;
     background-size: cover; */
@@ -37,12 +37,167 @@ html,body {
 body._lock {
     overflow: hidden;
 }
-/*--------------------*/
+/* ------------секция о нас------------- */
+.wrapper2 {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background: #000000;
+  
+}
+.section2 {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+  
+    align-items: center;
+}
+.imgPc   {
+    box-sizing: border-box;
+    width: 526px;
+    height: 499px;
+    left: 312px;
+    top: 1160px;
+   padding-top: 6%;
+    border: 30px solid #7C6AFA;
+   
+ 
+    
+}
+.toDoWe{
+    margin-left: 5%;
+}
+.page2 {
+ 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.textAboutus{   
+    margin-top: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+/* ---------------------------------------------------- */
+.section3{
+    margin-top: 150px;
+}
+.page2 img {
+    margin-bottom: 0;
+    width: 40px;
+    height: auto;
+}
+.page2_info {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+/* ------------------------rectangle-------------------- */
+
+/* заголовок h4 */
+.retangle_info {
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 140%;
+        color: #FFFFFF;
+       
+}
+.rectangle-box{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    
+
+    
+    
+
+}
+.rectangle1{ 
+       
+        margin: 80px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+     
+
+}
+
+.retangle_info  {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 140%;
+    /* margin-bottom: 20px; */
+    color: #FFFFFF;
+}
+
+.figura-rectangle1{
+    width: 100%;
+    height: 80px;
+   
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    
+    
+}
+.figura-rectangle2{
+    width: 100%;
+    height: 60px;
+  
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    
+   
+  
+}
+.figura-rectangle3{
+    width: 100%;
+    height: 30px;
+   
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    
+}
+.figura-rectangle4{
+    width: 100%;
+    height: 10px;
+   
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.retangle-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    padding-right: 25px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    
+}
+/*--------главная----------*/
 .wrapper {
     overflow: hidden;
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    background: url("../img/main-screen.png") center no-repeat;
 
 }
 .main {
@@ -224,7 +379,7 @@ body._lock {
 }
 
 /* ------------footer------------------------------- */
-.footer {
+.section {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -322,7 +477,7 @@ body._lock {
   } */
 /* mobile */
 @media (max-width: 1056px) {
-    .footer {
+    .section {
         margin-top: 40px;
         display: flex;
         flex-wrap: wrap;
@@ -419,7 +574,7 @@ body._lock {
    }
   
 /* --------------------------------------------------------- */
-   .footer {
+   .section {
     margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
@@ -487,7 +642,7 @@ body._lock {
         line-height: 120%;
       
       }
-      .footer {
+      .section {
    justify-self: auto;
    justify-content: center;
    height: auto;
