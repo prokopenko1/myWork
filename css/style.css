@@ -37,6 +37,117 @@ html,body {
 body._lock {
     overflow: hidden;
 }
+/* ---------------------партнеры----------------------------- */
+.wrapper4 {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background: #000000;
+  
+}
+.section4{
+    margin-top: 150px;
+}
+.page4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.tabblsection-prtners{
+    margin: 50px auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.tabblsection-prtners2{
+    margin: 50px auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.partners-logo:not(:first-child) {
+   
+    border-left: 1px solid white;
+}
+.partners-logo2:not(:first-child) {
+   
+    border-left: 1px solid white;
+}
+.partners-logo {
+    border-bottom: 1px solid white;
+    padding: 25px;
+   
+}
+.partners-logo2 {
+    margin-top: -50px;
+    padding: 25px;
+   
+}
+
+
+/* --------------секция получения професси-------------------- */
+.wrapper3 {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background: #000000;
+  
+}
+.section3{
+    margin-top: 150px;
+}
+.profession-style {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.info-profession-block{
+    display: flex;
+    margin-top: 126px;
+   
+}
+.inform-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.inform-logo img {
+    width: 100px;
+    height: 100px;
+}
+.inform-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 60px
+}
+.infotm-subtext{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+text-align: center;
+color: #FFFFFF;
+opacity: 0.8;
+margin-top: 36px;
+}
 /* ------------секция о нас------------- */
 .wrapper2 {
     overflow: hidden;
@@ -197,7 +308,7 @@ body._lock {
     display: flex;
     flex-direction: column;
     min-height: 100%;
-    background: url("../img/main-screen.png") center no-repeat;
+    background: url("../img/main-screen.png") center right no-repeat;
 
 }
 .main {
@@ -378,7 +489,7 @@ body._lock {
     color: #FFFFFF;
 }
 
-/* ------------footer------------------------------- */
+/* ------------section------------------------------- */
 .section {
     display: flex;
     justify-content: space-between;
@@ -488,9 +599,58 @@ body._lock {
     .total-money {
         margin-top: 15px;
         width: 100%;
-     
-       
+           
     }
+    .imgPc   {
+        box-sizing: border-box;
+        width: 526px;
+        height: 499px;
+        left: 312px;
+        top: 1160px;
+       padding-top: 6%;
+        border: 30px solid #7C6AFA;
+        
+        }
+     
+        
+    }
+    .toDoWe{
+        margin-left: 5%;
+    }
+    .page2 {
+     
+      
+        font-weight: 500;
+        font-size: 36px;
+     
+    }
+    .textAboutus{   
+        margin-top: 25px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: justify;
+        
+    }
+
+@media (max-width: 998.98px) {
+    .section2 {
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column-reverse;
+
+               
+    }
+    .imgPc   {
+      margin-top: 25px;
+       
+     
+        
+    }
+.toDoWe{
+    margin-left: 0;
+}
 }
 @media (max-width: 711.98px) {
    /* Гамбургер иконка */
@@ -608,9 +768,52 @@ body._lock {
  
  
 }
+.imgPc   {
+    border: none;
+    margin: 0 auto;
+    max-width:100%
 
+        
 }
+.imgPc img {
+    max-width:100%
+}
+.section2 {
+    margin-top: 50px;
+          
+}
+.section3 {
+    margin-top: 70px;
+}
+.rectangle1{ 
+       
+    margin-top: 30px;
+  
+}
+.retangle-text {
+    text-align:left;
+}
+}
+@media (max-width: 603.98px) {
+    .rectangle-box{
+       
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    
+    }
+    .rectangle1 {
+        margin-top: 20px;
+       
+       
+    }
+   .retangle-text{
+    margin-top: 10px;
+    padding: 0px;
 
+   }
+  
+}
 @media (max-width: 460.98px) {
     .time_page {
       
@@ -656,9 +859,18 @@ body._lock {
     .total-students {
         margin-top: 10px;
         margin-left: 7px;
+        
     }
     .total-amount{
         margin-top: 4px;
         font-size: 14px;
+    }
+    .section3 {
+        margin-top: 10px;
+    }
+}
+@media (max-width: 460.98px) {
+    .section3 {
+        margin-top: 10px;
     }
 }
