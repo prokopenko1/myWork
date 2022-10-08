@@ -36,7 +36,373 @@ html,body {
 
 body._lock {
     overflow: hidden;
+
 }
+/* ----------------футер------------------- */
+.wrapper-footer {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background: #000000;
+
+}
+.section-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-navigation {
+   
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 290px;
+    margin: 40px auto auto auto;
+    
+    
+}
+.footer-style {
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    margin-top: 200px;
+    color: #FFFFFF;
+}
+.page_footter {
+    
+    text-align: center;
+   
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    margin-top: 30px;
+   
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.facebook, .vk, .youtube, .instagram {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+/* .info-footer {
+    background-color: #3f2db4;
+} */
+.page_footter-templates {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+text-align: center;
+color: #FFFFFF;
+opacity: 0.8;
+margin-top: 50px;
+margin-bottom: 20px;
+}
+#email {
+    width: 353px;
+    height: 44px;
+    left: 714px;
+    top: 6359px;
+
+/* white */
+
+background: #FFFFFF;
+opacity: 0.25;
+border-radius: 50px 0px 0px 50px;
+}
+.form-action {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+#button-emaill {
+ position: relative;
+margin-left: -25px;
+justify-content: center;
+align-items: center;
+padding: 10px 30px;
+
+width: 160px;
+height: 44px;
+
+
+/* grad1 */
+
+background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+border-radius: 50px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+text-align: center;
+
+/* white */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+/* ---------------------ваши преподаватели------------------------ */
+.wrapper6 {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background: #000000;
+}
+.section6 {
+    margin-top: 150px;
+}
+.teacher-info-blok {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+     
+}
+.card-teacher-info {
+/*  
+    align-items: center;
+    justify-content: center; */
+/* для адаптива
+    margin-top: 20px; */
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.photo-teacher {
+    display: flex;
+ 
+    justify-content: center;
+  
+}
+.name-teacher {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.spesiality-teacher {
+    margin-top: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.bio-teacher { 
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+   
+   
+ 
+ 
+}
+a.bio-teacher-info {
+display: block;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 150%;
+width: 150px;
+border: 1px solid #FFFFFF;
+border-radius: 50px;
+color: #FFFFFF;
+padding: 10px 30px;
+text-align: center;
+
+
+
+
+
+}
+/* ---------программа обучения---------------------- */
+.wrapper5 {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    min-height: 100%;
+    background: #000000;
+  
+}
+.section5{
+    flex-direction: column;
+    margin-top: 150px;
+    max-width: 750px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto auto auto;
+    
+}
+.give-profession-style{
+
+ justify-content: center;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 140%;
+/* or 67px */
+
+text-align: center;
+
+/* white */
+
+color: #FFFFFF;
+}
+.page_give {
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    /* or 26px */
+    
+    text-align: center;
+    
+    /* white */
+    
+    color: #FFFFFF;
+    
+    opacity: 0.5;
+}
+.wrapper-tree {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    height: auto;
+}
+.tree-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 60px;
+    
+   
+    
+}
+
+.week-day{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 160%;
+/* or 22px */
+
+text-align: left;
+
+/* white */
+
+color: #FFFFFF;
+
+opacity: 0.5;
+}
+.week-day-left {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    /* or 22px */
+    
+    text-align: right;
+    
+    /* white */
+    
+    color: #FFFFFF;
+    
+    opacity: 0.5;
+}
+.tree-center {
+    display: flex;
+    width: 6px;
+height: 677px;
+
+/* grad2 */
+
+background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+
+.tree-right {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 60px;
+   
+}
+.tree-left1 {
+    
+    
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+/* or 29px */
+
+text-align: right;
+width: 228px;
+height: 58px;
+color: #FFFFFF;
+}
+
+.week-day-info{
+    margin-top: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    width: 228px;
+    height: 58px;
+    color: #FFFFFF;
+}
+.tree-left-info {
+    margin-top: 15px;
+   
+}
+
 /* ---------------------партнеры----------------------------- */
 .wrapper4 {
     overflow: hidden;
@@ -115,12 +481,14 @@ body._lock {
 .info-profession-block{
     display: flex;
     margin-top: 126px;
+    
    
 }
 .inform-logo{
     display: flex;
     align-items: center;
     justify-content: center;
+   
 
 }
 .inform-logo img {
@@ -128,6 +496,7 @@ body._lock {
     height: 100px;
 }
 .inform-text {
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -135,7 +504,8 @@ body._lock {
     line-height: 140%;
     text-align: center;
     color: #FFFFFF;
-    margin-top: 60px
+    margin: 60px auto auto auto;
+    width: 300px;
 }
 .infotm-subtext{
     font-family: 'Roboto';
@@ -300,6 +670,7 @@ margin-top: 36px;
     padding-right: 25px;
     color: #FFFFFF;
     opacity: 0.5;
+    margin-top: 30px;
     
 }
 /*--------главная----------*/
