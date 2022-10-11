@@ -549,7 +549,7 @@ margin-top: 36px;
 .toDoWe{
     margin-left: 5%;
 }
-.page2 {
+h4.page2 {
  
     font-family: 'Roboto';
     font-style: normal;
@@ -557,6 +557,8 @@ margin-top: 36px;
     font-size: 48px;
     line-height: 140%;
     color: #FFFFFF;
+
+  
 }
 .textAboutus{   
     margin-top: 25px;
@@ -570,6 +572,11 @@ margin-top: 36px;
 /* ---------------------------------------------------- */
 .section3{
     margin-top: 150px;
+}
+.page4 img {
+    margin-bottom: 0;
+    width: 40px;
+    height: auto;
 }
 .page2 img {
     margin-bottom: 0;
@@ -967,6 +974,16 @@ margin-top: 36px;
      
         
     }
+    .info-profession-block{
+        display: flex;
+        flex-wrap: wrap;
+    
+        
+       
+    }
+    .inform-profession:not(:first-child) {
+        margin: 50px auto auto auto;
+    }
     .total-money {
         margin-top: 15px;
         width: 100%;
@@ -983,7 +1000,32 @@ margin-top: 36px;
         
         }
      
-        
+        .tabblsection-prtners, .tabblsection-prtners2 {
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+        .partners-logo {
+            border: 1px solid white;
+            margin: auto;
+            padding: 25px;
+           
+        }
+        .partners-logo2 {
+           margin: auto;
+            padding: 25px;
+            border: 1px solid white;
+           
+        }
+        .partners-logo:not(:first-child) {
+   
+            border: 1px solid white;
+        }
+        .partners-logo2:not(:first-child) {
+           
+            border: 1px solid white;
+        }
+     
     }
     .toDoWe{
         margin-left: 5%;
@@ -1021,6 +1063,11 @@ margin-top: 36px;
     }
 .toDoWe{
     margin-left: 0;
+}
+
+
+.card-teacher-info {
+    margin: 50px auto auto auto;
 }
 }
 @media (max-width: 711.98px) {
@@ -1077,7 +1124,7 @@ margin-top: 36px;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #1a1a1ae3;
+	background: #000000e3;
 	transform: translateX(-100%);
 	transition: transform 0.5s; 
 }
@@ -1088,11 +1135,35 @@ margin-top: 36px;
 
 .menu-body li {
 	list-style-type: none;
-    padding: 7px;
+    padding:5px 10px;
+    border-bottom: 2px solid rgb(153, 153, 153);
+    transition-property: all;
+    transition-duration: .5s;
+    background: none;
+
+    
+
+   
+}
+.menu-body li:hover{
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+transform: translate(-40%, 0%);
+border-radius: 10px;
+height: 40px;
+padding:5px 10px;
+transition-duration: 1.5s;
+
+
+
+
+
+    
+
    
 }
 .menu-list {
     flex-direction: column;
+
    
    
 } 
@@ -1183,7 +1254,66 @@ margin-top: 36px;
     padding: 0px;
 
    }
+   #email {
+    width: auto;
+ }
+ #button-emaill {
+    width: auto;
+ }
+
+
+.give-profession-style{
+font-size: 30px;
+margin-top: 100px;
+
+}
+
+.wrapper-tree {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    height: auto;
+}
+.tree-left {
+ 
+    margin-right: 20px;
+    
+   
+    
+}
+
+
+.tree-right {
   
+  
+    margin-left: 20px;
+   
+}
+.tree-left1 {
+
+
+width: auto;
+
+
+}
+
+.week-day-info{
+    margin-top: 15px;
+
+    width: auto;
+    
+}
+.tree-left-info {
+    margin-top: 15px;
+
+    width: auto;
+   
+}
+.info-give-profession{
+    height: 800px;
+
+}
+
 }
 @media (max-width: 460.98px) {
     .time_page {
@@ -1244,4 +1374,6 @@ margin-top: 36px;
     .section3 {
         margin-top: 10px;
     }
+   
+   
 }
