@@ -9,8 +9,9 @@
 </head>
 <body>
     <div class="wrapper">
+     
         <!-- шапка -->
-        <header class="header">
+        <header class="header lock-padding">
             <div class="header_container _container">
                 <a href="" class="header-logo">
                     <img src="img/Group.svg" alt="Логотип">
@@ -19,16 +20,16 @@
                 <nav class="menu-body " id="menu">
                     <ul class="menu-list">
                         <li class="menu-item"><a href="" class="menu-link">Главная</a></li>
-                        <li class="menu-item"><a href="" class="menu-link">Курсы</a></li>
-                        <li class="menu-item"><a href="" class="menu-link">Расписание</a></li>
-                        <li class="menu-item"><a href="" class="menu-link">Преподаватели</a></li>
+                        <li class="menu-item"><a href="#lessonsForyou" class="menu-link">Курсы</a></li>
+                        <li class="menu-item"><a href="#toGoLessons" class="menu-link">Расписание</a></li>
+                        <li class="menu-item"><a href="#teachers" class="menu-link">Преподаватели</a></li>
                         <li class="menu-item"><a href="" class="menu-link">Рассылка</a></li>
-                        <li class="menu-item"><a href="" class="menu-link">Контакты</a></li>
+                        <li class="menu-item"><a href="#contacts" class="menu-link">Контакты</a></li>
                     </ul>
                 </nav>
                 <!-- кнопка кабинета -->
                 <div class="header-button">
-                    <a href="" class="button first-button">Зайти в кабинет</a>
+                    <a href="#personalArea" class="button first-button popup-link">Зайти в кабинет</a>
                 </div>
                 <!-- иконка бургера -->
                 <div class="menu_icon icon-menu">
@@ -70,7 +71,7 @@
 
         <section class="section">
             <div class="header-button">
-                <a href="" class="button order-button">Заказать курс</a>
+                <a href="#lessons" class="button order-button popup-link">Заказать курс</a>
             </div>
             <div class="total-students">
                 <div class="total-text">
@@ -168,7 +169,7 @@
     <!-- ----------------------------получение профессии---------------------------------------- -->
     <div class="wrapper3">
         <main class="main">
-            <div class="section3">
+            <div class="section3" id="lessonsForyou">
                 <div class="take-profession">
                     <h4 class="profession-style">Получите профессию прямо сейчас</h4>
                 </div>
@@ -232,7 +233,7 @@
 <!-- ---------------программа обучения--------------------------- -->
 <div class="wrapper5">
     <main class="main">
-        <div class="section5">
+        <div class="section5" id="toGoLessons">
             <div class="give-profession">
                 <h4 class="give-profession-style">Программа обучения</h4>
                 <div  class="page_give"><p>Больше 90% учеников прошли первый курс и смогли собрать свой первый компьютер</p></div>
@@ -283,33 +284,29 @@
 <!-- -----------ваши преподаватели------------------------------------ -->
 <div class="wrapper6">
     <main class="main">
-            <div class="section6">
-                 <h4 class="page4"><img src="img/Ellipse.png" alt="">Ваши преподаватели</h4>  
+            <div class="section6" id="teachers">
+                 <h4 class="page4" ><img src="img/Ellipse.png" alt="">Ваши преподаватели</h4>  
             </div>
-            <div class="teacher-info-blok">
-                <div class="card-teacher-info">
+            <div class="teacher-info-blok" >
+                <div class="card-teacher-info ">
                     <div class="photo-teacher"><img src="img/Ellipse 2.png" alt="фото преподавателя"></div>
                     <div class="name-teacher"><p>Дмитрий Иванов</p></div>
                     <div class="spesiality-teacher"><p>Сперциалист по видеокартам</p></div>
-                    <div class="bio-teacher"><a href="" class="bio-teacher-info">Биография</a></div>
+                    <div class="bio-teacher"><a   href="#popup"  class="bio-teacher-info popup-link">Биография</a></div>
                 </div>
-                <div class="card-teacher-info">
+                <div class="card-teacher-info ">
                     <div class="photo-teacher"><img src="img/Ellipse 1.png" alt="фото преподавателя"></div>
-                    <div class="name-teacher"><p>Иван Иванов</p></div>
+                    <div class="name-teacher"><p>Иван Петрович</p></div>
                     <div class="spesiality-teacher"><p>Сперциалист по видеокартам</p></div>
-                    <div class="bio-teacher"><a href="" class="bio-teacher-info">Биография</a></div>
+                    <div class="bio-teacher"><a  href="#popup2"    class="bio-teacher-info popup-link">Биография</a></div>
                 </div>
                 <div class="card-teacher-info">
                     <div class="photo-teacher"><img src="img/Ellipse 3.png" alt="фото преподавателя"></div>
-                    <div class="name-teacher"><p>Олег Иванов</p></div>
+                    <div class="name-teacher"><p>Олег Терненко</p></div>
                     <div class="spesiality-teacher"><p>Сперциалист по видеокартам</p></div>
-                    <div class="bio-teacher"><a href="" class="bio-teacher-info">Биография</a></div>
+                    <div class="bio-teacher"><a href="#popup3" class="bio-teacher-info popup-link">Биография</a></div>
                 </div>
             </div>
-          
-            
-
-
 
         </div>
     </main>   
@@ -319,7 +316,7 @@
         <main class="main">
             <div class="section-footer">
                 <div class="info-footer">
-                    <h4 class="footer-style">Статьи каждую неделю</h4>
+                    <h4 class="footer-style" id="contacts">Статьи каждую неделю</h4>
                     <div  class="page_footter"><p>Больше 90% учеников прошли первый курс и смогли собрать свой первый компьютер</p></div>
                     <div class="form-action">  
                          <form action="/action_page.php">
@@ -344,6 +341,59 @@
         </main>   
     </div>
 </footer>
+<!-- -----попапы биографии--------- -->
+<div class="popup" id="popup">
+    <div class="popup-body">
+        <div class="popup-content">
+            <a href="#" class="popup-close close-popup">Закрыть</a>
+            <div class="popup-title">Дмитрий Иванов<img src="img/Ellipse 2.png" alt="фото преподавателя"></div>
+            <div class="popup-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, rem laudantium voluptatum maiores laboriosam doloribus eius tenetur minima excepturi nostrum. Aperiam mollitia cum exercitationem error eveniet quas fugiat deserunt ad!</div>
+        </div>
+    </div>
+
+</div>
+<div class="popup" id="popup2">
+    <div class="popup-body">
+        <div class="popup-content">
+            <a href="#" class="popup-close close-popup">Закрыть</a>
+            <div class="popup-title">Иван Петрович<img src="img/Ellipse 1.png" alt="фото преподавателя"></div>
+            <div class="popup-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, rem laudantium voluptatum maiores laboriosam doloribus eius tenetur minima excepturi nostrum. Aperiam mollitia cum exercitationem error eveniet quas fugiat deserunt ad!</div>
+        </div>
+    </div>
+
+</div>
+<div class="popup" id="popup3">
+    <div class="popup-body">
+        <div class="popup-content">
+            <a href="#" class="popup-close close-popup">Закрыть</a>
+            <div class="popup-title">Олег Терненко<img src="img/Ellipse 3.png" alt="фото преподавателя"></div>
+            <div class="popup-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, rem laudantium voluptatum maiores laboriosam doloribus eius tenetur minima excepturi nostrum. Aperiam mollitia cum exercitationem error eveniet quas fugiat deserunt ad!</div>
+        </div>
+    </div>
+
+</div>
+<!-- ------------------------------попап заказать курс------------------------- -->
+<div class="popup" id="lessons">
+    <div class="popup-body">
+        <div class="popup-content">
+            <a href="#" class="popup-close close-popup">Закрыть</a>
+            <div class="popup-title">Заказать курс</div>
+            <div class="popup-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        </div>
+    </div>
+
+</div>
+<!-- ---------------------------------попап личный кабинет ------------------------ -->
+<div class="popup" id="personalArea">
+    <div class="popup-body">
+        <div class="popup-content">
+            <a href="#" class="popup-close close-popup">Закрыть</a>
+            <div class="popup-title">Войти в личный кабинет</div>
+            <div class="popup-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        </div>
+    </div>
+
+</div>
     <script src="js/main.js"></script>
 </body>
 </html>
